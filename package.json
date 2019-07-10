@@ -1,0 +1,23 @@
+{
+  "name": "typeormwtf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "^0.1.10",
+    "sqlite3": "^4.0.9",
+    "typeorm": "0.2.18",
+    "yarn-deduplicate": "^1.1.1"
+  },
+  "scripts": {
+    "typeorm": "node -r ts-node/register ./node_modules/typeorm/cli.js",
+    "start": "ts-node src/index.ts",
+    "yarn-deduplicate": "yarn-deduplicate yarn.lock -s fewer"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "ts-node": "8.3.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.5.3"
+  }
+}
