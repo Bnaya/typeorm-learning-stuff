@@ -6,7 +6,7 @@
   "dependencies": {
     "reflect-metadata": "^0.1.10",
     "sqlite3": "^4.0.9",
-    "typeorm": "0.2.18",
+    "typeorm": "0.2.25",
     "yarn-deduplicate": "^1.1.1"
   },
   "scripts": {
